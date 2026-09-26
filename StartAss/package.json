@@ -1,0 +1,45 @@
+{
+  "name": "dermalink",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "start:tunnel": "expo start --tunnel",
+    "start:clear": "expo start -c",
+    "start:tunnel:clear": "expo start --tunnel -c",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
+    "@google/generative-ai": "^0.24.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^7.3.12",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.3.2",
+    "babel-preset-expo": "^55.0.17",
+    "expo": "~55.0.18",
+    "expo-clipboard": "~55.0.13",
+    "expo-file-system": "~55.0.17",
+    "expo-font": "~55.0.6",
+    "expo-image-picker": "~55.0.19",
+    "expo-linear-gradient": "~55.0.13",
+    "expo-status-bar": "~55.0.5",
+    "firebase": "^9.23.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.6",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "15.15.3",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@expo/ngrok": "^4.1.3",
+    "@types/react": "^19.2.14"
+  },
+  "private": true
+}
